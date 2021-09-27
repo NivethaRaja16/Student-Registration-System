@@ -1,0 +1,224 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}}
+{\*\generator Riched20 10.0.17763}\viewkind4\uc1 
+\pard\qj\f0\fs24\lang2057 package Student;\par
+\par
+import javax.swing.JOptionPane;\par
+\par
+public class login extends javax.swing.JFrame \{\par
+\par
+    /**\par
+     * Creates new form login\par
+     */\par
+    public login() \{\par
+        initComponents();\par
+    \}\par
+    @SuppressWarnings("unchecked")\par
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          \par
+    private void initComponents() \{\par
+\par
+        jPanel1 = new javax.swing.JPanel();\par
+        jLabel1 = new javax.swing.JLabel();\par
+        jPanel2 = new javax.swing.JPanel();\par
+        jLabel2 = new javax.swing.JLabel();\par
+        jLabel3 = new javax.swing.JLabel();\par
+        txtuser = new javax.swing.JTextField();\par
+        txtpass = new javax.swing.JPasswordField();\par
+        jButton1 = new javax.swing.JButton();\par
+        jButton2 = new javax.swing.JButton();\par
+\par
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);\par
+\par
+        jPanel1.setBackground(new java.awt.Color(51, 0, 51));\par
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));\par
+\par
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N\par
+        jLabel1.setForeground(new java.awt.Color(255, 255, 0));\par
+        jLabel1.setText("Login Page");\par
+\par
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);\par
+        jPanel1.setLayout(jPanel1Layout);\par
+        jPanel1Layout.setHorizontalGroup(\par
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)\par
+            .addGroup(jPanel1Layout.createSequentialGroup()\par
+                .addGap(160, 160, 160)\par
+                .addComponent(jLabel1)\par
+                .addContainerGap(167, Short.MAX_VALUE))\par
+        );\par
+        jPanel1Layout.setVerticalGroup(\par
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)\par
+            .addGroup(jPanel1Layout.createSequentialGroup()\par
+                .addGap(28, 28, 28)\par
+                .addComponent(jLabel1)\par
+                .addContainerGap(30, Short.MAX_VALUE))\par
+        );\par
+\par
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));\par
+\par
+        jLabel2.setBackground(new java.awt.Color(153, 0, 153));\par
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N\par
+        jLabel2.setText("UserName");\par
+\par
+        jLabel3.setBackground(new java.awt.Color(153, 0, 153));\par
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N\par
+        jLabel3.setText("Password");\par
+\par
+        txtuser.addActionListener(new java.awt.event.ActionListener() \{\par
+            public void actionPerformed(java.awt.event.ActionEvent evt) \{\par
+                txtuserActionPerformed(evt);\par
+            \}\par
+        \});\par
+\par
+        jButton1.setBackground(new java.awt.Color(51, 0, 51));\par
+        jButton1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N\par
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));\par
+        jButton1.setText("Login");\par
+        jButton1.addActionListener(new java.awt.event.ActionListener() \{\par
+            public void actionPerformed(java.awt.event.ActionEvent evt) \{\par
+                jButton1ActionPerformed(evt);\par
+            \}\par
+        \});\par
+\par
+        jButton2.setBackground(new java.awt.Color(51, 0, 51));\par
+        jButton2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N\par
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));\par
+        jButton2.setText("Cancel");\par
+        jButton2.addActionListener(new java.awt.event.ActionListener() \{\par
+            public void actionPerformed(java.awt.event.ActionEvent evt) \{\par
+                jButton2ActionPerformed(evt);\par
+            \}\par
+        \});\par
+\par
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);\par
+        jPanel2.setLayout(jPanel2Layout);\par
+        jPanel2Layout.setHorizontalGroup(\par
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)\par
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()\par
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)\par
+                    .addGroup(jPanel2Layout.createSequentialGroup()\par
+                        .addGap(89, 89, 89)\par
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)\par
+                            .addComponent(jLabel2)\par
+                            .addComponent(jLabel3))\par
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)\par
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)\par
+                            .addComponent(txtuser, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)\par
+                            .addComponent(txtpass)))\par
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()\par
+                        .addGap(70, 70, 70)\par
+                        .addComponent(jButton1)\par
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)\par
+                        .addComponent(jButton2)))\par
+                .addGap(70, 70, 70))\par
+        );\par
+        jPanel2Layout.setVerticalGroup(\par
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)\par
+            .addGroup(jPanel2Layout.createSequentialGroup()\par
+                .addGap(64, 64, 64)\par
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)\par
+                    .addComponent(txtuser, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)\par
+                    .addComponent(jLabel2))\par
+                .addGap(41, 41, 41)\par
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)\par
+                    .addComponent(jLabel3)\par
+                    .addComponent(txtpass, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))\par
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)\par
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)\par
+                    .addComponent(jButton1)\par
+                    .addComponent(jButton2))\par
+                .addGap(46, 46, 46))\par
+        );\par
+\par
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());\par
+        getContentPane().setLayout(layout);\par
+        layout.setHorizontalGroup(\par
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)\par
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)\par
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)\par
+        );\par
+        layout.setVerticalGroup(\par
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)\par
+            .addGroup(layout.createSequentialGroup()\par
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)\par
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)\par
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)\par
+                .addGap(39, 39, 39))\par
+        );\par
+\par
+        pack();\par
+    \}// </editor-fold>                        \par
+\par
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) \{                                         \par
+        // TODO add your handling code here:\par
+        \par
+        String uname = txtuser.getText();\par
+        String pass = txtpass.getText();\par
+        \par
+        \par
+        if(uname.equals("Nivetha")&&pass.equals("1234567"))\par
+        \{\par
+         JOptionPane.showMessageDialog(this, "Login Successfully!!!");\par
+         \par
+         new Stud_Reg().setVisible(true);\par
+         this.setVisible(false);\par
+         \par
+            \par
+        \}\par
+        else\{\par
+            JOptionPane.showMessageDialog(this, "Login Failed Try Again!!!");\par
+        \}\par
+        \par
+    \}                                        \par
+\par
+    private void txtuserActionPerformed(java.awt.event.ActionEvent evt) \{                                        \par
+        // TODO add your handling code here:\par
+    \}                                       \par
+\par
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) \{                                         \par
+        // TODO add your handling code here:\par
+        this.setVisible(false);\par
+    \}                                        \par
+\par
+    /**\par
+     * @param args the command line arguments\par
+     */\par
+    public static void main(String args[]) \{\par
+                try \{\par
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) \{\par
+                if ("Nimbus".equals(info.getName())) \{\par
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());\par
+                    break;\par
+                \}\par
+            \}\par
+        \} catch (ClassNotFoundException ex) \{\par
+            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);\par
+        \} catch (InstantiationException ex) \{\par
+            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);\par
+        \} catch (IllegalAccessException ex) \{\par
+            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);\par
+        \} catch (javax.swing.UnsupportedLookAndFeelException ex) \{\par
+            java.util.logging.Logger.getLogger(login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);\par
+        \}\par
+        //</editor-fold>\par
+\par
+        /* Create and display the form */\par
+        java.awt.EventQueue.invokeLater(new Runnable() \{\par
+            public void run() \{\par
+                new login().setVisible(true);\par
+            \}\par
+        \});\par
+    \}\par
+\par
+    // Variables declaration - do not modify                     \par
+    private javax.swing.JButton jButton1;\par
+    private javax.swing.JButton jButton2;\par
+    private javax.swing.JLabel jLabel1;\par
+    private javax.swing.JLabel jLabel2;\par
+    private javax.swing.JLabel jLabel3;\par
+    private javax.swing.JPanel jPanel1;\par
+    private javax.swing.JPanel jPanel2;\par
+    private javax.swing.JPasswordField txtpass;\par
+    private javax.swing.JTextField txtuser;\par
+    // End of variables declaration                   \par
+\}\par
+}
+ 
